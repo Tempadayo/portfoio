@@ -17,6 +17,15 @@ header h1{
     color:white;
     padding-top:90px;
 }
+<<<<<<< HEAD
+=======
+.eachTextAnime span{opacity: 0;}
+.eachTextAnime.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+>>>>>>> d6fa844bacf0ed958d0406634192057b4183c7ec
 header p{
     color:white;
     font-size:60px;
@@ -32,9 +41,16 @@ a{
 .header-nav{
     background-color:antiquewhite;
     padding-top:20px;
+<<<<<<< HEAD
     position:fixed;
     top:0;
     position:sticky;
+=======
+    top:0;
+    position:sticky;
+    position:-webkit-sticky;
+    z-index:10;
+>>>>>>> d6fa844bacf0ed958d0406634192057b4183c7ec
 
     
 }
@@ -61,8 +77,12 @@ a{
 }
 .text{
     text-align:left;
+<<<<<<< HEAD
     padding-top:20px;
     margin:0 3rem;
+=======
+    padding:20px 80px 0 80px;
+>>>>>>> d6fa844bacf0ed958d0406634192057b4183c7ec
     font-size:20px;
     line-height:40px;
 }
@@ -212,4 +232,8 @@ header{
 .disrate{
     display:none;
 }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d6fa844bacf0ed958d0406634192057b4183c7ec
