@@ -61,7 +61,8 @@ a{
 }
 .text{
     text-align:left;
-    padding:20px 15px 0 15px;
+    padding-top:20px;
+    margin:0 3rem;
     font-size:20px;
     line-height:40px;
 }
